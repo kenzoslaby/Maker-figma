@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.container {
+  @apply max-w-1180px mx-auto px-5;
+}
+
+@layer base {
+  h1{
+    @apply text-5xl font-bold ;
+  }
+  h2{
+  @apply text-4xl font-bold ;
+  }
+  h3{
+    @apply text-3xl font-medium ;
+  }
+  h4{
+    @apply text-2xl font-semibold ;
+  } 
+  p{
+    @apply text-base text-gray font-normal ;
+  }
+}
+
+@layer components{
+  .nav_btn{
+    @apply bg-blue py-4  px-7 rounded-md ;
+  }
+  .ftr_btn{
+  @apply bg-transparent border-2 border-gray  py-4 px-7 rounded-xl ;
+  }
+}

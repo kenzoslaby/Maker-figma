@@ -6,15 +6,19 @@ export default {
   ],
   theme: {
     extend: {
-      maxWidth:{
-        "1180px": "1180px", 
+      maxWidth: {
+        "1180px": "1180px",
       },
-      colors:{
+      colors: {
         "blue": "#35afbf",
         "darkblue": "#2c353e",
         "gray": "#707273",
-        "black": "#252626"
+        "black": "#252626",
+        "lightblue": "#F3FEFF"
       },
+      backgroundImage: {
+        'work': "url('/src/assets/images/work.jpg')"
+      }
     },
   },
   plugins: [],

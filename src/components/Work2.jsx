@@ -4,12 +4,12 @@ import { recall } from '../assets/xasan'
 const Work2 = () => {
     return (
         <section>
-            <div className="container py-10">
-                <div className='text-center py-8 space-y-2'>
+            <div className="container">
+                <div className='text-center py-32'>
                     <h2>Best features in the world</h2>
                     <p>Capture more customers wd recall. Whether you need a tising or as a tagline for you. Capture more <br /> customers wd recall. Whether you need a tising or as a tagline for you.</p>
                 </div>
-                <ul className='grid grid-cols-3 gap-12'>
+                <ul className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12'>
                     {recall.map((i, index) => {
                         return(
                             <li className='text-center items-center py-5'>

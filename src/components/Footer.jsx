@@ -55,7 +55,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <hr />
-                <div>
+                <div className='flex items-center justify-between'>
                     <ul className='flex py-7 space-x-9'>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Privacy</a></li>
@@ -63,14 +63,14 @@ const Footer = () => {
                         <li><a href="#">About us</a></li>
                         <li><a href="#">Contact us</a></li>
                     </ul>
-                    <div>
+                    <div className='space-x-4'>
                         <i className='' class="bi bi-facebook"></i>
                         <i className='' class="bi bi-instagram"></i>
                         <i className='' class="bi bi-twitter"></i>
                         <i className='' class="bi bi-twitter"></i>
                     </div>
-                    <p>@ A new era 2016. Awesome wireframe  by Andrei Dorin</p>
                 </div>
+                    <p>@ A new era 2016. Awesome wireframe  by Andrei Dorin</p>
             </div>
         </footer>
     )

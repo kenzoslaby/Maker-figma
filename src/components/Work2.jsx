@@ -1,11 +1,11 @@
 import React from 'react'
 import { recall } from '../assets/xasan'
 
-const Work = () => {
+const Work2 = () => {
     return (
         <section>
-            <div className="container">
-                <div className='text-center py-32'>
+            <div className="container py-10">
+                <div className='text-center py-8 space-y-2'>
                     <h2>Best features in the world</h2>
                     <p>Capture more customers wd recall. Whether you need a tising or as a tagline for you. Capture more <br /> customers wd recall. Whether you need a tising or as a tagline for you.</p>
                 </div>
@@ -25,4 +25,4 @@ const Work = () => {
     )
 }
 
-export default Work
+export default Work2

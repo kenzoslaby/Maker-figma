@@ -40,3 +40,7 @@
     @apply bg-transparent border-2 border-gray py-3 px-7 rounded-xl text-white;
   }
 }
+
+.menu a:active{
+  @apply text-blue underline
+}

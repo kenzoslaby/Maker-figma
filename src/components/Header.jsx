@@ -10,7 +10,7 @@ const Header = () => {
                         <img src={LogoIcon} alt="logo" />
                     </a>
                     <div className='hidden lg:block'>
-                        <ul className='text-gray  flex space-x-9'>
+                        <ul className='text-gray  flex space-x-9 menu'>
                             <li>
                                 <a href="#">Home</a>
                             </li>

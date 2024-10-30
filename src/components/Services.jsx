@@ -13,7 +13,7 @@ const Services = () => {
                         We help people to think independent. Be the boss of your brand and be the <br /> storyteller. An appropriate approach.
                     </p>
                 </div>
-                <ul className='grid grid-cols-4 gap-x-8'>
+                <ul className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-8'>
                     {services.map((i, index) => {
                         return(
                             <li key={index} className='text-center items-center hover:bg-lightblue rounded-2xl p-3 space-y-3 mt-10'>

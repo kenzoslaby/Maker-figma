@@ -5,7 +5,7 @@ const Hero = () => {
     return (
         <section className='bg-lightblue py-10'>
             <div className="container">
-                <div className='grid grid-cols-2 items-center'>
+                <div className='grid md:grid-cols-2 items-center'>
                     <div className='space-y-6'>
                         <h1>Make a Creative solutions for your Creative ideas.</h1>
                         <p>
@@ -16,7 +16,7 @@ const Hero = () => {
                         </button>
                     </div>
                     <div>
-                        <img src={HeroImg} alt="heroImg" />
+                        <img className='mt-5 md:mt-0' src={HeroImg} alt="heroImg" />
                     </div>
                 </div>
             </div>

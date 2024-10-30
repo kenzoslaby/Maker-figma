@@ -9,26 +9,28 @@ const Header = () => {
                     <a href="#">
                         <img src={LogoIcon} alt="logo" />
                     </a>
-                    <ul className='text-gray flex space-x-9'>
-                        <li>
-                            Home
-                        </li>
-                        <li>
-                            Services
-                        </li>
-                        <li>
-                            About
-                        </li>
-                        <li>
-                            The Team
-                        </li>
-                        <li>
-                            Pricing
-                        </li>
-                        <li>
-                            Contact
-                        </li>
-                    </ul>
+                    <div className='hidden lg:block'>
+                        <ul className='text-gray  flex space-x-9'>
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">Services</a>
+                            </li>
+                            <li>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <a href="#">The Team</a>
+                            </li>
+                            <li>
+                                <a href="#">Pricing</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
                     <button className='nav_btn text-white'>
                         Sign Up
                     </button>

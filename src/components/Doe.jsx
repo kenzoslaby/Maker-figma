@@ -5,7 +5,7 @@ const Doe = () => {
     return (
         <section className='py-10'>
             <div className="container">
-                <div className='grid grid-cols-2 items-center gap-60'>
+                <div className='grid grid-cols-1 md:grid-cols-2 items-center gap-5 md:gap-60'>
                     <div className='space-y-3'>
                         <h2>
                             Johnatan Doe
